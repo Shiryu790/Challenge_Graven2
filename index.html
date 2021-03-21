@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Recursive&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Graven'AIR</title>
+  </head>
+  <body>
+    <header>
+
+        <!----------- Le titre et le background ------------>
+      <h1 class="titre">Graven'Air</h1>
+      <p class="sous_titre"><q>La tête dans les nuages ! </q></p>
+
+      <!---------Les formulaires------------>
+
+      <form action="" class="flexForm">
+        <label for="depart" class="depart">Ville de départ</label>
+        <input type="text" id="depart" placeholder="Choisissez votre ville" />
+        <label for="depart" class="arrivee">Ville d'arrivée</label>
+        <input type="text" id="depart" placeholder="Choisissez votre ville" />
+      </form>
+
+      <form action="" class="flexDate">
+        <label for="date_depart" class="date_depart">Date de départ</label>
+        <input type="date" id="date_depart"/>
+        <label for="date_arrivee" class="date_arrivee">Date d'arrivée</label>
+        <input type="date" id="date_arrivee"/>
+      </form>
+
+    <div class="flexChoix">
+        <label for="enfants">Nombre d'enfants</label>
+        <select name="" id="enfants">
+            <option selected = "selected">0 enfant</option>
+            <option value="">1 enfant</option>
+            <option value="">2 enfants</option>
+            <option value="">3 enfants</option>
+            <option value="">4 enfants</option>
+            <option value="">5 enfants</option>
+        </select>
+
+        <label for="enfants">Nombre d'adultes</label>
+        <select name="" id="adultes">
+            <option selected = "selected">0 adulte</option>
+            <option value="">1 adulte</option>
+            <option value="">2 adultes</option>
+            <option value="">3 adultes</option>
+            <option value="">4 adultes</option>
+            <option value="">5 adultes</option>
+        </select>
+
+        <label for="Classe">Classe</label>
+        <select name="" id="Classe">
+            <option selected = "selected">Économique</option>
+            <option value="">Classe affaires</option>
+            <option value="">Première classe</option>
+        </select>
+    </div>
+    </header>
+
+    <!--------------Les destinations------------>
+    <section class="destinations">
+        <div class="card">
+            <div class="card_head">
+                <img src="images/barcelone.jpg" alt="Barcelone">
+            </div>
+            <div class="card_body">
+               <p> Paris-Barcelone </p>
+               <p>  Vol direct</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 300 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_head">
+                <img src="images/dubai.jpg" alt="Dubaï">
+            </div>
+            <div class="card_body">
+               <p> Paris-Dubaï</p>
+               <p>Avec escale(s)</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 460 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_head">
+                <img src="images/tunis.jpg" alt="Tunis">
+            </div>
+            <div class="card_body">
+               <p> Paris-Tunis</p>
+               <p>Avec escale(s)</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 220 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_head">
+                <img src="images/londres.jpg" alt="Londres">
+            </div>
+            <div class="card_body">
+               <p> Paris-Londres </p>
+               <p>Vol direct</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 100 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card_head">
+                <img src="images/philippines.jpg" alt="philippines">
+            </div>
+            <div class="card_body">
+               <p> Paris-Philippines </p> 
+               <p>Avec escale(s)</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 800 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_head">
+                <img src="images/paris.jpg" alt="Paris">
+            </div>
+            <div class="card_body">
+               <p> Vol vers Paris </p>
+               <p>Vol direct</p>
+            </div>
+            <hr>
+            <div class="card_footer">
+                <p>Dès 400 €</p>
+                <button>Réserver</button>
+            </div>
+        </div>
+    </section>
+    <!--------------- Le Footer ------------------>
+    <footer>
+        <div class="pied_page">
+            <p>&copy; 2012 Graven'Air</p>
+            <p>Conditions générales d'utilisation</p>
+        </div>
+    </footer>
+
+
+  </body>
+</html>
